@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+.input{
+  padding: 5px;
+  outline: none;
+  width: 90%;
+  margin: 10px 0;
+}
+
+.button{
+  border: 0;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 5px;
+  background: linear-gradient(180deg, #067bb6 0%, #a509ee 100%);
+  transition: all .3s;
+  cursor: pointer;
+
+}
+
+  
+
+.button:hover {
+  background: linear-gradient(180deg, #fbde74 0%, #ff9900 100%);
+  transition: all .3s;
+}
+.btn-blue{
+  background-color:rgb(78, 127, 232);
+  color: white;
+}
+.btn-normal{
+  background-color:rgb(255, 255, 255);
+  color: rgb(82, 82, 82);
+}
